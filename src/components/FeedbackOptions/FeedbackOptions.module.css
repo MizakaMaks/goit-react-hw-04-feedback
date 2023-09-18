@@ -1,0 +1,32 @@
+.button {
+  font-weight: 500;
+  font-size: 25px;
+  text-align: center;
+  line-height: 1.5;
+  letter-spacing: 0.04em;
+  margin-right: 10px;
+  background-color: #57e54d;
+  color: white;
+  border: 0;
+  border-radius: 4px;
+  box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.3);
+  cursor: pointer;
+  transition-property: background-color;
+  transition-duration: 250ms;
+  transition-timing-function: cubic-bezier(0.4, 0, 0.2, 1);
+}
+
+.button:hover,
+.button.button:focus {
+  background: #57e54d;
+}
+
+.buttonBox {
+  display: flex;
+  gap: 30px;
+  justify-content: center;
+}
+
+.feedbackContainer {
+  text-align: center;
+}
