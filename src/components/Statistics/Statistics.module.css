@@ -1,13 +1,11 @@
-.title {
-  font-weight: 700;
-  line-height: 1.5;
-  letter-spacing: 0.04em;
-
-  color: #57e54d;
+.list {
+  list-style-type: none;
 }
 
 .subtitle {
   font-weight: 600;
+  display: flex;
+  justify-content: center;
 }
 
 .resultTitle {

@@ -7,19 +7,19 @@ const Statistics = ({ good, neutral, bad, total, feedbackPercentage }) => {
     <>
       <ul className={css.list}>
         <li className={css.item}>
-          <p className={css.text}>Good: {good}</p>
+          <p className={css.subtitle}>Good: {good}</p>
         </li>
         <li className={css.item}>
-          <p className={css.text}>Neutral: {neutral}</p>
+          <p className={css.subtitle}>Neutral: {neutral}</p>
         </li>
         <li className={css.item}>
-          <p className={css.text}>Bad: {bad}</p>
+          <p className={css.subtitle}>Bad: {bad}</p>
         </li>
         <li className={css.item}>
-          <p className={css.text}>Total feedback: {total}</p>
+          <p className={css.resultTitle}>Total feedback: {total}</p>
         </li>
         <li className={css.item}>
-          <p className={css.text}>Positive feedback: {feedbackPercentage}%</p>
+          <p className={css.resultTitle}>Positive feedback: {feedbackPercentage}%</p>
         </li>
       </ul>
     </>
